@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learing To Code</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="parent">
+    <nav id="navbar">
+        <header>Learning To Code</header>
+        <a href="#introduction" class="nav-link">Introduction</a>
+        <a href="#structure" class="nav-link">Structure</a>
+        <a href="#basics" class="nav-link">Basics</a>
+        <a href="#intermediate" class="nav-link">Intermediate</a>
+        <a href="#advanced" class="nav-link">Advanced</a>
+        <a href="http://zamoradev.com/" class="nav-link">Back Home</a>
+    </nav>
+    </div>
+    <main id="main-doc">
+        <section class="main-section" id="introduction">
+            <header>Introduction</header>
+            <p>What is Programming?</p>
+
+            <p>A simple answer would be, “Programming is the act of instructing computers to carry out tasks.” It is
+                often referred to as coding.</p>
+
+            <p>So then, what is a computer program? A computer program is a sequence of instructions that the computer
+                executes.</p>
+
+            <p>Computer in the definition above is any device that is capable of processing code. This could be
+                smartphones, ATMs, the Raspberry Pi, Servers to name a few.</p>
+
+            <p>A Good Analogy for Programming</p>
+
+            <p>First, there are patterns to our every day lives. The universe operates in a somewhat predictable way;
+                For example — day and night, seasons, sunrise and sunset. People go through routines such as rising in
+                the morning, going to school or to work. We get instructions from other people such as our superiors at
+                work. How we cook certain recipes can be explained in finite steps.</p>
+
+            <p>Second, every time we use smart devices, some code is running in the background. Moving a mouse pointer
+                from one part of your computer screen to the other may seem like a simple task, but in reality, so many
+                lines of code just ran. An act as simple as typing letters into Google Docs leads to lines of code being
+                executed in the background. It’s all code everywhere.</p>
+
+            <p>Computer programs are also referred to as code. Do not use the word ‘codes’ (code should be used as an
+                uncountable noun). Okay, this is not an English class, let’s get back to business.</p>
+
+            <p>The Natural Language of the Computer</p>
+
+            <p>Machines have their natural language like humans do. Computers do not understand the human language. The
+                natural language of computers is the binary code — 1 and 0. These represent two states: on (1) and off
+                (0).</p>
+
+            <p>That is the natural language of electronic equipment. It would be hectic for us as humans to communicate
+                with the computer in binary.</p>
+
+            <p>Enter Programming Languages</p>
+
+            <p>To communicate with machines who speak binary, we do so in a language that’s closer to our own natural
+                language. Such as English, French, Swahili or Arabic. Programming languages are close to our natural
+                languages. But they are more structured and must be thoroughly learned.</p>
+
+            <p>They could be high level or low level languages. High level programming languages are farther away from
+                the machine language than low level languages. This “farther away” is usually called an abstraction ,
+                but we will not go into that in this series. Let’s not get distracted :)</p>
+
+            <p>The computer needs a way to understand our human language. To do this, we’ll need a translator that can
+                interprete code languages such as CSS. e.g. CSS background white.</p>
+            <code class="code">body {background: white;}
+          </code>
+        </section>
+        <section class="main-section" id="structure">
+            <header>Structure</header>
+            <p>In computer science, the <em>syntax</em> of a computer language is the rules that defines the
+                combinations of symbols that are considered to be correctly structured statements or expressions in that
+                language. e.g. HTML is as follows;</p>
+        </section>
+        <section class="main-section" id="basics">
+            <header>Basics</header>
+            <p>What Is HTML?</p>
+
+            <p>HTML, which stands for Hypertext Markup Language, is a pretty simple language. It consists of different
+                elements which we use to structure a web page.</p>
+            <p>What is CSS?</p>
+            <p>CSS, or Cascading Style Sheets, is a style sheet language that is used to style your web content.</p>
+            <code class="code">.container p {
+             color: red;
+            }</code>
+            <p>What is JavaScript?</p>
+            <p>JavaScript allows you to make dynamic web sites. It's the final part of the web development trinity with
+                HTML and CSS, and you use it to make your static pages dynamic. JavaScript is made up of:</p>
+            <ul>
+                <li>Variables</li>
+                <li>Conditionals</li>
+                <li>Loops</li>
+                <li>Arrays</li>
+                <li>Functions</li>
+                <li>Objects</li>
+            </ul>
+        </section>
+        <section class="main-section" id="intermediate">
+            <header>Intermediate</header>
+            <p>CSS</p>
+            <p>How to Use the Descendant Combinator</p>
+
+            <p>This combinator allows you to select an element that is a descendant of another element. "Descendants"
+                here can be child, grandchild, great-grandchild, great-great-great...and so on.</p>
+
+            <p>To use this combinator, you enter an empty space between selectors like this:</p>
+            <code class="code">
+            .container div p {
+            color: red;
+            }
+            </code>
+        <p>To use a pseudo element, enter ::</p>
+        <code class="code">
+        selector::pseudo-element {
+        property: value;
+         }
+        </code>
+        </section>
+        <section class="main-section" id="advanced">
+            <header>Advanced</header>
+            <p>JavaScript</p>
+            <p>What Is an Array in JavaScript?</p>
+
+            <p>An array in JavaScript is a variable that you can use to store multiple elements. It is usually in the
+                form of square brackets that contain different elements, strings, and integers (or both strings and
+                integers).</p>
+            <p>What Is a Loop in JavaScript?</p>
+
+            <p>A loop is a conditional statement used to run a sequence of instructions until a specified condition is
+                met. It is given a statement that repeats the execution of a block of code and ends the execution once
+                the stated condition is met.</p>
+
+            <p>Let's loop through this array – let name = ['Dennis', 'Precious', 'Evelyn'], – using one of the most
+                commonly used loops in JavaScript.</p>
+            <p>How to Loop Through an Array with a For Loop in JavaScript</p>
+
+            <p>A for loop is a statement that repeats the execution of a block of code when the condition is false and
+                terminates the execution when the condition is true.</p>
+
+            <p>Let's now loop through an array using the for loop method.</p>
+
+            <p>I definitely advise that you go through this article carefully to not miss vital details along the way.
+                But in case you are in a hurry to loop through an array using the for loop statement, you can check out
+                the syntax below.
+                Quick for loop explanation:</p>
+
+            <p>This is the fast route to looping through an array using the for loop statement with an example.</p>
+            <code class="code">let name = ['Dennis', 'Precious', 'Evelyn'];
+             for (let i = 0; i <= name.length; i++)
+            {console.log(name);
+            }</code>
+        </section>
+    </main>
+</body>
+
+</html>

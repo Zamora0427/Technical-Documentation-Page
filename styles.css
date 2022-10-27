@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.parent {
+  position: fixed;
+  top: 0;
+  margin: auto;
+  width: 100%;  
+  }
+
+#main-doc {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 300px;
+}
+
+#navbar {
+    background-color: #078080;
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 5px 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-top: 3px solid #f45d48;
+    border-radius: 4px;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  header {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    background-color: #078080;
+    color: white; 
+    border-radius: 4px;
+    border-bottom: 4px solid #f45d48;
+  }
+  
+  
+  .main-section {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  
+  .code {
+    display: block;
+    background-color: rgb(247, 247, 247);
+    padding: 30px;
+    width: 30%;
+    font-size: 15px;
+  }
+  
+
+  p {
+    line-height: 40px;
+    text-align: left;
+  }
+
+  /* Small devices (portrait tablets and large phones, 700px and up) */
+@media only screen and (min-width: 700px) {
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    }
+  
+  .parent {
+    position: fixed;
+    top: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;  
+    }
+
+  #main-doc {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /*margin-left: 320px;*/
+        margin-right: 15px;
+        margin-left: 320px;
+        margin-top: 0;
+    }
+
+    #navbar {
+        background-color: #078080;
+        min-width: 290px;
+        width: 300px;
+        height: 100%;
+        text-align: left;
+        border-right: 5px solid #232323;
+      }
+      
+      .nav-link {
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 25px;
+        padding: 5px 50px;
+        color: white;
+        border-bottom: 2px solid white;
+        border-top: none;
+      }
+    
+      .main-section {
+        font-size: 20px;
+        margin: 5px;
+      }
+
+    
+
+      header {
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        background-color: #078080;
+        color: white;
+        border-bottom: 4px solid #f45d48;
+        border-radius: 4px;
+      }
+
+    .code {
+        display: block;
+        background-color: rgb(247, 247, 247);
+        padding-top: 50px;
+        width: 300px;
+        font-size: 15px;
+      }
+      
+      p {
+        line-height: 40px;
+        text-align: left;
+      }
+} 
